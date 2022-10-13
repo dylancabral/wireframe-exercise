@@ -1,10 +1,20 @@
 
+.navbar{
 
+}
 
 
 
 header {
     background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 130px;
+
+
+
     
 }
 
@@ -13,12 +23,22 @@ header nav{
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items:center ;
 
+}
 li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: inline;
 }
 main{
     width: 960px;
@@ -28,6 +48,8 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    height: 1315px;
+    margin-bottom:0px;
 }
 
 main img{
@@ -36,7 +58,7 @@ main img{
 
 footer{
     background-color: bisque;
-    height: 50px;
+    height: 130px;
     
 }
 
@@ -46,8 +68,28 @@ main article {
 }
 
 p{
-    height: 350px;
+    height: 345px;
     overflow: auto;
     margin-top: 10px;
     
 }
+body{
+    height: 1500px;
+}
+
+div {
+margin-bottom: 30px;
+}
+
+button:hover{
+    color: rgb(216, 27, 106);
+    transition: 320ms;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 10px;
+}
+
+
+
